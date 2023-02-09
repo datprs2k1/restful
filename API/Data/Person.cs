@@ -4,6 +4,7 @@ namespace API.Data
 {
     public class Person
     {
+
         [Key]
         public int Id { get; set; }
         [Required]
@@ -11,5 +12,6 @@ namespace API.Data
         [Required]
         [Range(0, 150)]
         public int Age { get; set; }
+
     }
 }

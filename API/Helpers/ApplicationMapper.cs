@@ -10,6 +10,8 @@ namespace API.Helpers
         {
             CreateMap<PersonModel, Person>()
                 .ReverseMap();
+
+            CreateMap<RegisterModel, User>();
         }
     }
 }
